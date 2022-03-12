@@ -13,7 +13,7 @@ var LinkMusicNaTela = document.getElementById("video");
 var link1 = '<iframe width="600" height="550" src="'
 var link2 = "https://www.youtube.com/embed/" + myMusicInputID
 var link3 = '" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>'
-var link4 = '<br><h1><font color="white">Faixa Desconhecida</font><h1><h1><font color="gray">Artista Desconhecido</font></h1>'
+var link4 = '<h1><font color="white">Faixa Desconhecida</font><h1><h1><font color="gray">Artista Desconhecido</font></h1>'
 var linkFinal = link1+link2+link3+link4
 
 console.log(linkFinal)
