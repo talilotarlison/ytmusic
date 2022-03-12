@@ -18,7 +18,7 @@ var linkFinal = link1+link2+link3+link4
 
 console.log(linkFinal)
 
-LinkMusicNaTela.innerHTML = linkFinal.innerHTML + linkFinal
+LinkMusicNaTela.innerHTML = linkFinal
 
 
 
