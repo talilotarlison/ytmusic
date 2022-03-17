@@ -9,16 +9,15 @@ var myMusicInputID = myMusicInput.substr(17)
 
 
 
-var LinkMusicNaTela = document.getElementById("video");
-var link1 = '<iframe width="600" height="550" src="'
-var link2 = "https://www.youtube.com/embed/" + myMusicInputID
-var link3 = '" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>'
-var link4 = '<h1><font color="white">Faixa Desconhecida</font><h1><h1><font color="gray">Artista Desconhecido</font></h1>'
-var linkFinal = link1+link2+link3+link4
+var linkMusicNaTela = document.getElementById("video");
+var linkEmbedID = "https://www.youtube.com/embed/" + myMusicInputID
+var linkIframe = '<iframe width="600" height="550" src="' +linkEmbedID+ '" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>'
+var linkArtista = '<h1><font color="white">Faixa Desconhecida</font><h1><h1><font color="gray">Artista Desconhecido</font></h1>'
+var linkFinal = linkIframe + linkArtista
 
 console.log(linkFinal)
 
-LinkMusicNaTela.innerHTML = linkFinal
+linkMusicNaTela.innerHTML = linkFinal
 
 
 
