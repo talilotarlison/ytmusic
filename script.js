@@ -11,7 +11,7 @@ var myMusicInputID = myMusicInput.substr(17)
 
 var linkMusicNaTela = document.getElementById("video");
 var linkEmbedID = "https://www.youtube.com/embed/" + myMusicInputID
-var linkIframe = '<iframe width="600" height="550" src="' +linkEmbedID+ '" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>'
+var linkIframe = '<iframe width="670" height="640" src="' +linkEmbedID+ '" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>'
 var linkArtista = '<h1><font color="white">Faixa Desconhecida</font><h1><h1><font color="gray">Artista Desconhecido</font></h1>'
 var linkFinal = linkIframe + linkArtista
 
