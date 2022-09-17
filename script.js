@@ -4,7 +4,7 @@ var myMusicDoHtml = document.getElementById("linkMusic");
 var myMusicInput = myMusicDoHtml.value;
 var myMusicInputID = myMusicInput.substr(17) 
 
-//console.log(myMusicInput2)
+//console.log(myMusicInputID)
 
 
 
@@ -19,13 +19,11 @@ console.log(linkFinal)
 
 linkMusicNaTela.innerHTML = linkFinal
 
-
+document.getElementById("linkMusic").value = "";
 
 }
 //<iframe width="450" height="370" src="https://www.youtube.com/embed/_YMXB9qzc2I" title="player" title="player" frameborder="0" allow="autoplay; clipboard-write;"></iframe>
 
-
-//https://youtu.be/zp9mQbGvndw
 
 
 
